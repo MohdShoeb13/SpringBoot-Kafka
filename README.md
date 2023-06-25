@@ -4,6 +4,15 @@ Apache Kafka is a distributed messaging system that allows different application
 
 <img src="apachekafka.jpg" alt="drawing" width="300"/>
 
+## Startup Commands
+
+#### Note: Run the following commands in the root direcrory
+### Start the ZooKeeper service
+` .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties `
+
+### Start the Kafka broker service
+`.\bin\windows\kafka-server-start.bat .\config\server.properties`
+
 ### Architecture:
 Apache Kafka follows a distributed architecture, meaning it operates on a cluster of multiple servers, also known as brokers. The brokers work together to provide fault-tolerant and scalable data storage and streaming capabilities.
 
